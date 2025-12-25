@@ -28,7 +28,7 @@ https://x.com/UKPTIOfficial/status/2003469391615394061 presents the evidence of 
 
 Thank you for your attention to this matter. 
 
-Yours faithfully,`;
+Yours Sincerely,`;
             // Display the initial default email body
             emailTextArea.textContent = defaultEmailBody;
 
