@@ -37,7 +37,7 @@ Yours faithfully,`;
 
             // Add event listener to the send email button
             sendEmailButton.addEventListener("click", function () {
-                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent('Formal Complaint – Threats Against Pakistan's CDF & COAS FM Asim Munir')}&body=${encodeURIComponent(defaultEmailBody)}`;
+                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent(`Formal Complaint – Threats Against Pakistan's CDF & COAS FM Asim Munir`)}&body=${encodeURIComponent(defaultEmailBody)}`;
                 
                 // Set mailto link and update email content preview in textarea
                 sendEmailButton.href = mailtoLink;
