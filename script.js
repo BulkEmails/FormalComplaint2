@@ -28,7 +28,7 @@ https://x.com/UKPTIOfficial/status/2003469391615394061 presents the evidence of 
 
 Thank you for your attention to this matter. 
 
-Yours Sincerely,`;
+Yours faithfully,`;
             // Display the initial default email body
             emailTextArea.textContent = defaultEmailBody;
 
@@ -37,7 +37,7 @@ Yours Sincerely,`;
 
             // Add event listener to the send email button
             sendEmailButton.addEventListener("click", function () {
-                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent('Formal Complaint - Threats Against Pakistan's CDF & COAS FM Asim Munir')}&body=${encodeURIComponent(defaultEmailBody)}`;
+                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent('Formal Complaint – Threats Against Pakistan's CDF & COAS FM Asim Munir')}&body=${encodeURIComponent(defaultEmailBody)}`;
                 
                 // Set mailto link and update email content preview in textarea
                 sendEmailButton.href = mailtoLink;
