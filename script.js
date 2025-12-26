@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const defaultEmailBody = `Dear Sir/Madam,
 
-I am writing to raise an urgent concern regarding apparent incitement to violence and public threats made in the United Kingdom.
-On or around a recent protest outside the Pakistan Consulate in Bradford, PTI supporters were reportedly heard chanting slogans calling for the death of Pakistan’s CDF & COAS, FM Asim Munir. The chants allegedly included explicit references to killing him via a “car blast,” which appears to amount to encouragement of terrorist-style violence and targeted assassination.
+I am writing to report an urgent concern regarding apparent incitement to violence and public threats made in the United Kingdom.
+On or around a recent protest outside the Pakistan Consulate in Bradford, PTI supporters were reportedly heard chanting slogans calling for the death of Pakistan’s Chief of Defence Staff (CDF) & Chief of Army Staff (COAS), Field Marshal (FM) Asim Munir. The chants allegedly included explicit references to killing him via a “car blast,” which appears to amount to encouragement of terrorism and targeted assassination.
 
 Such statements go well beyond lawful protest. They risk normalising political violence, endangering individuals, and inflaming tensions within communities. They may also fall within UK offences relating to threatening behaviour, harassment, public order, and encouraging or glorifying violence.
 
-I respectfully request that the Home Office:
+I respectfully request that the Home Office to consider following:
 
 1. Review available footage and reporting of the incident (including any social media videos) to assess whether criminal thresholds have been met;
 2. Refer the matter to relevant policing and counter-extremism/counter-terror channels as appropriate; and
@@ -37,7 +37,7 @@ Yours faithfully,`;
 
             // Add event listener to the send email button
             sendEmailButton.addEventListener("click", function () {
-                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent(`Formal Complaint – Threats Against Pakistan's CDF & COAS FM Asim Munir`)}&body=${encodeURIComponent(defaultEmailBody)}`;
+                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent(`PTI's Threats to Chief of Defence Staff & Chief of Army Staff Field Marshal Asim Munir`)}&body=${encodeURIComponent(defaultEmailBody)}`;
                 
                 // Set mailto link and update email content preview in textarea
                 sendEmailButton.href = mailtoLink;
